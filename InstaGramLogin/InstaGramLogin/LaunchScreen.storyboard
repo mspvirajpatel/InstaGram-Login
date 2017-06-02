@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tZV-zB-pgf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yru-7z-5Fd">
+            <objects>
+                <viewController id="tZV-zB-pgf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xVu-Dv-mmQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="iXN-8u-Kbd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f5g-As-5sB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFE-oU-8OV">
+                                <rect key="frame" x="104" y="223" width="168" height="221"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wmT-xL-Q59">
+                                        <rect key="frame" x="20" y="20" width="128" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="128" id="nMk-eI-Ds3"/>
+                                            <constraint firstAttribute="height" constant="128" id="xdo-dr-6Np"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="InstaGramLogin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="B1p-M7-Kse">
+                                        <rect key="frame" x="20" y="168" width="128" height="33"/>
+                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="B1p-M7-Kse" firstAttribute="top" secondItem="wmT-xL-Q59" secondAttribute="bottom" constant="20" id="2zI-zJ-hgR"/>
+                                    <constraint firstItem="wmT-xL-Q59" firstAttribute="top" secondItem="pFE-oU-8OV" secondAttribute="top" constant="20" id="59b-4l-Q6O"/>
+                                    <constraint firstItem="B1p-M7-Kse" firstAttribute="leading" secondItem="pFE-oU-8OV" secondAttribute="leading" constant="20" id="P2E-gz-IVT"/>
+                                    <constraint firstItem="wmT-xL-Q59" firstAttribute="leading" secondItem="pFE-oU-8OV" secondAttribute="leading" constant="20" id="cEd-rY-IFt"/>
+                                    <constraint firstAttribute="trailing" secondItem="wmT-xL-Q59" secondAttribute="trailing" constant="20" id="fCT-FG-g0C"/>
+                                    <constraint firstAttribute="trailing" secondItem="B1p-M7-Kse" secondAttribute="trailing" constant="20" id="fsV-3X-9az"/>
+                                    <constraint firstAttribute="bottom" secondItem="B1p-M7-Kse" secondAttribute="bottom" constant="20" id="qRS-WF-6Ex"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15686274510000001" green="0.4549019608" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pFE-oU-8OV" firstAttribute="centerY" secondItem="f5g-As-5sB" secondAttribute="centerY" id="7yI-T6-Hdv"/>
+                            <constraint firstItem="pFE-oU-8OV" firstAttribute="centerX" secondItem="f5g-As-5sB" secondAttribute="centerX" id="waI-pN-FgB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dkc-qq-3Ib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

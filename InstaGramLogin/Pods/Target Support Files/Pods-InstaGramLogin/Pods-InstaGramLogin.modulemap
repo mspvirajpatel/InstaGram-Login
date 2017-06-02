@@ -1,0 +1,6 @@
+framework module Pods_InstaGramLogin {
+  umbrella header "Pods-InstaGramLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

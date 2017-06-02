@@ -1,0 +1,100 @@
+
+
+navAboutTitle = "About Us";
+navHastagTitle = "Hash Tag";
+navRepostTitle = "Repost";
+navMyCollectionTitle = "My Collection";
+navFollowersTitle = "Followers";
+navFollowingTitle = "Following";
+navPlaceTitle = "Place";
+navfeedbackTitle = "Feedback";
+navHomeTitle = "Home";
+navTackerTitle = "Tacker";
+navSearchTitle = "Search";
+navProfileTitle = "Profile";
+
+aboutNotice = "Notice";
+aboutDescription = "Users are kindly requested not to save any of the photos without taking permission of respective owners. Please respect the rights of Instagram users.";
+
+aboutDescription1 = "Get in touch with us";
+
+logoutConfirmation = "Confirmation";
+logoutDescription = "\nAre you sure that you want to logout?";
+repostDescription = "\nAre you sure to report about this image to Instagram Help Center?";
+
+alertConfirmation = "Alert";
+alertDescription = "Your caption is capied in clipboard.\nYou can past it at anyware.";
+
+NO = "No";
+OK = "Ok";
+YES = "Yes";
+
+rateUs = "Rate us";
+aboutUs = "About us";
+logout = "Logout";
+
+posts = "posts";
+pullToRefresh = "Pull to refresh";
+captiontopost = "Caption to post";
+repost = "Repost";
+share = "Share";
+from = "From";
+
+sharevia = "Share via";
+searching = "Searching....";
+
+noDataFound = "No Data Found.";
+noDownloadImagesFound = "No Images Found.";
+noPeoplefound = "No People found.";
+noPlacesfound = "No Places Found.";
+noImagesfound = "No Images Found.";
+noPostfound = "No Posts Found.";
+accountprivate = "This account is private.";
+
+
+loginWelcome = "Welcome to";
+
+loginUsername = "User Name";
+loginPassword = "Password";
+loginSignInButton = "Sign In with Instagram";
+loginValidationUsername = "User name must be required";
+loginValidationPassword = "Password must be required";
+loginValidationALL = "User name and Password must be required";
+loginValidationPasswordNotMatch = "Password Not Match";
+mustbeEnterValidation = "Must be first letter #(tag) or @(user)";
+
+profilePost = "Post";
+profileFollowers = "Followers";
+profileFollowing = "Following";
+profileFollowbtn = "Follow";
+profileRequested = "Requested";
+
+addtoCollectionbtn = "Add to Collection";
+
+searchtop = "Top";
+searchPeople = "People";
+searchHash = "Hash Tag";
+searchPlaces = "Places";
+searchplacehlder = "Search";
+
+
+done = "  Done  ";
+loading = "Loading...";
+feedback = "Feedback";
+fbname = "Name";
+fbemail = "Email";
+fbDesc = "Description";
+fbsubmit = "Submit";
+
+enterText = "Please Enter Empty Fields.";
+entername = "Please Enter Name.";
+enteremail = "Please Enter Email.";
+validEmail = "Please Enter Valid Email.";
+enterdesc = "Please Enter Description.";
+
+
+sendsccuess = "Send Sucessfully...";
+errorapi = "Something went wrong.";
+saveToCollection = "Sucessfully Saved in Collection.";
+slectimage = "Please select image";
+removeimage = "Remove image from collection";
