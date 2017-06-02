@@ -2,6 +2,8 @@
 
 import UIKit
 import Alamofire
+import Fabric
+import Crashlytics
 
 enum ImageModelType : Int{
     case top = 0
@@ -321,11 +323,24 @@ class InstagramLoginView: BaseView,UIWebViewDelegate {
                        
                         if self?.timeline != nil && self?.timeline.graphql != nil && self?.timeline.graphql.user != nil && self?.timeline.graphql.user.username != ""
                         {
+                            Answers.logLogin(withMethod: "Instagram",
+                                             success: true,
+                                             customAttributes: [
+                                                "Name": self?.timeline.graphql.user.username! ?? "Test",
+                                                "id": self?.timeline.graphql.user.id! ?? "0"
+                                ])
                             AppUtility.setUserDefaultsObject(self?.timeline.graphql.user.username as AnyObject, forKey: "LoginUserName")
                             
                             if self?.loginSuccessEvent != nil{
                                 self?.loginSuccessEvent(true,nil)
                             }
+                        }
+                        else
+                        {
+                            Answers.logLogin(withMethod: "Instagram",
+                                             success: false,
+                                             customAttributes: [
+                                :])
                         }
                         
                     }
@@ -337,6 +352,10 @@ class InstagramLoginView: BaseView,UIWebViewDelegate {
                         if self == nil {
                             return
                         }
+                        Answers.logLogin(withMethod: "Instagram",
+                                         success: false,
+                                         customAttributes: [ "error" : error!.serverMessage
+                                            ])
                         AppUtility.showWhisperAlert(message: error!.serverMessage, duration: 1.0)
                     }
                     break

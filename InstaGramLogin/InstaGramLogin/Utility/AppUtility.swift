@@ -8,6 +8,8 @@
 
 import UIKit
 import Whisper
+import Fabric
+import Crashlytics
 
 class AppUtility: NSObject {
    
@@ -535,6 +537,8 @@ class AppUtility: NSObject {
         
         if dicLogin != nil
         {
+            
+            
             self.setUserDefaultsCustomObject(LoginUser.init(fromDictionary: dicLogin!) as AnyObject, forKey: UserDefaultKey.loginUserData)
             return true
         }
