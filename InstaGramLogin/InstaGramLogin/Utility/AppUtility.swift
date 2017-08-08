@@ -1,10 +1,4 @@
-//
-//  AppUtility.swift
-//  ViewControllerDemo
-//
-//  Created by SamSol on 24/08/15.
-//  Copyright (c) 2015 SamSol. All rights reserved.
-//
+
 
 import UIKit
 import Whisper
