@@ -1,3 +1,5 @@
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=59a5941d38d62600013ba987&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/59a5941d38d62600013ba987/build/latest?branch=master)
+
 # InstaGramLogin
 
 This is Instagram's private API. It has all the features the Instagram app
