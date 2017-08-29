@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE63B998BACFBBE77BF1EF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E81D09A2D37941AD6F7351 /* CoreVideo.framework */; };
+		15AFFBBA3460238555EA71A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43A459220183A76E4AB9187 /* SystemConfiguration.framework */; };
+		16F900AABAF4DEBAB527EF50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E12A5538FE70DA91A8F2DB2 /* AVFoundation.framework */; };
+		6941985C00970D3C49B77097 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7543E62E75BD9917245DE448 /* CoreTelephony.framework */; };
+		97178D877E7180C8901642BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A1793C952A514C73CB831 /* QuartzCore.framework */; };
+		AA4458AD4A87281C44CCD82D /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E9A655F1D3B140B8FFF8E /* BuddyBuildSDK.framework */; };
 		C005176B1EDAA288004E2389 /* InstagramLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00517491EDAA288004E2389 /* InstagramLoginView.swift */; };
 		C005176C1EDAA288004E2389 /* InstagramLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005174A1EDAA288004E2389 /* InstagramLoginViewController.swift */; };
 		C005176D1EDAA288004E2389 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005174B1EDAA288004E2389 /* LoginView.swift */; };
@@ -78,12 +84,22 @@
 		C0937A451EDBCED400B98C3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0937A471EDBCED400B98C3A /* Localizable.strings */; };
 		C0FFC3891EDADA9D002D0EDF /* BaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFC3871EDADA9D002D0EDF /* BaseImageView.swift */; };
 		C0FFC38A1EDADA9D002D0EDF /* SegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFC3881EDADA9D002D0EDF /* SegmentControlView.swift */; };
+		C25A6BF861AFED7F7D760447 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA2201BCEF3532348BE1255 /* CoreMedia.framework */; };
 		D1A98A032E5ACA95EEE8A317 /* Pods_InstaGramLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5B4F5FD624287EFF0AA8A /* Pods_InstaGramLogin.framework */; };
+		DBB83726FB3D781E51B98587 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636F95F721E042C85287E50 /* CoreText.framework */; };
+		E9DB56616CCE0F77C8560150 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956B9C7FCDDD6D2B867A41CC /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61E81D09A2D37941AD6F7351 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6636F95F721E042C85287E50 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		66C5B4F5FD624287EFF0AA8A /* Pods_InstaGramLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGramLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7543E62E75BD9917245DE448 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7850B286E6C27DEF794594B0 /* Pods-InstaGramLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGramLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaGramLogin/Pods-InstaGramLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		8E12A5538FE70DA91A8F2DB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		956B9C7FCDDD6D2B867A41CC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AE3A1793C952A514C73CB831 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B72E9A655F1D3B140B8FFF8E /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		C00517491EDAA288004E2389 /* InstagramLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginView.swift; sourceTree = "<group>"; };
 		C005174A1EDAA288004E2389 /* InstagramLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginViewController.swift; sourceTree = "<group>"; };
 		C005174B1EDAA288004E2389 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -159,6 +175,8 @@
 		C0937A461EDBCED400B98C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C0FFC3871EDADA9D002D0EDF /* BaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseImageView.swift; sourceTree = "<group>"; };
 		C0FFC3881EDADA9D002D0EDF /* SegmentControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControlView.swift; sourceTree = "<group>"; };
+		DEA2201BCEF3532348BE1255 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F43A459220183A76E4AB9187 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F99D83F43AAABFF552DDFF35 /* Pods-InstaGramLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGramLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaGramLogin/Pods-InstaGramLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +186,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A98A032E5ACA95EEE8A317 /* Pods_InstaGramLogin.framework in Frameworks */,
+				AA4458AD4A87281C44CCD82D /* BuddyBuildSDK.framework in Frameworks */,
+				E9DB56616CCE0F77C8560150 /* AssetsLibrary.framework in Frameworks */,
+				DBB83726FB3D781E51B98587 /* CoreText.framework in Frameworks */,
+				6941985C00970D3C49B77097 /* CoreTelephony.framework in Frameworks */,
+				15AFFBBA3460238555EA71A6 /* SystemConfiguration.framework in Frameworks */,
+				97178D877E7180C8901642BC /* QuartzCore.framework in Frameworks */,
+				16F900AABAF4DEBAB527EF50 /* AVFoundation.framework in Frameworks */,
+				C25A6BF861AFED7F7D760447 /* CoreMedia.framework in Frameworks */,
+				0DE63B998BACFBBE77BF1EF0 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +205,15 @@
 			isa = PBXGroup;
 			children = (
 				66C5B4F5FD624287EFF0AA8A /* Pods_InstaGramLogin.framework */,
+				B72E9A655F1D3B140B8FFF8E /* BuddyBuildSDK.framework */,
+				956B9C7FCDDD6D2B867A41CC /* AssetsLibrary.framework */,
+				6636F95F721E042C85287E50 /* CoreText.framework */,
+				7543E62E75BD9917245DE448 /* CoreTelephony.framework */,
+				F43A459220183A76E4AB9187 /* SystemConfiguration.framework */,
+				AE3A1793C952A514C73CB831 /* QuartzCore.framework */,
+				8E12A5538FE70DA91A8F2DB2 /* AVFoundation.framework */,
+				DEA2201BCEF3532348BE1255 /* CoreMedia.framework */,
+				61E81D09A2D37941AD6F7351 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -783,6 +819,10 @@
 			baseConfigurationReference = 7850B286E6C27DEF794594B0 /* Pods-InstaGramLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstaGramLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpti.InstaGramLogin;
@@ -797,6 +837,10 @@
 			baseConfigurationReference = F99D83F43AAABFF552DDFF35 /* Pods-InstaGramLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstaGramLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpti.InstaGramLogin;
